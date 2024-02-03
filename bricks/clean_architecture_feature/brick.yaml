@@ -1,0 +1,10 @@
+name: clean_architecture_feature
+description: A building block to easily create feature folders using the Clean Architecture approach.
+version: 0.0.1
+environment:
+  mason: ">=0.1.0-dev.40 <0.1.0"
+vars:
+  feature_name:
+    type: string
+    description: "The name of the feature, used for naming the folder, files, and widget."
+    prompt: "What would you like to name your feature?"
